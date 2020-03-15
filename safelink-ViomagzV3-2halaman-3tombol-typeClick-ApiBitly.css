@@ -1,0 +1,310 @@
+span#ButtonSafelink {
+    float: left;
+    right: 0;
+    position: absolute;
+    background-color: #36bad4;
+    width: 37px;
+    text-align: center;
+    height: 30px;
+    padding-top: 5px;
+}
+#InputSafelink,#outputGenerate {
+    box-shadow: 0 0 0px black;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    height: 10px;
+}
+#buttonGenerate {
+    height: 34px;
+    width: 70px;
+    padding-left: 5px;
+    padding-right: 5px;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: bold;
+}
+button#copyGenerate {
+    height: 34px;
+    width: 70px;
+    padding-left: 5px;
+    padding-right: 5px;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: bold;
+}
+.titleGenerate {
+    margin-bottom: 20px;
+    text-align: left;
+    font-size: 25px;
+    font-weight: bold;
+}
+i.fa.fa-cog.fa-spin.fa-3x.fa-fw {
+    font-size: 22px;
+    color: #1ab32d;
+}
+.titleGenerate {
+      
+      color:#313131;
+      font-weight: bold;
+      -webkit-animation:colorchange 20s infinite alternate;
+      
+      
+    }
+
+    @-webkit-keyframes colorchange {
+      0% {
+        
+        color: blue;
+      }
+      
+      10% {
+        
+        color: #8e44ad;
+      }
+      
+      20% {
+        
+        color: #1abc9c;
+      }
+      
+      30% {
+        
+        color: #d35400;
+      }
+      
+      40% {
+        
+        color: blue;
+      }
+      
+      50% {
+        
+        color: #34495e;
+      }
+      
+      60% {
+        
+        color: blue;
+      }
+      
+      70% {
+        
+        color: #2980b9;
+      }
+      80% {
+     
+        color: #f1c40f;
+      }
+      
+      90% {
+     
+        color: #2980b9;
+      }
+      
+      100% {
+        
+        color: pink;
+      }
+    }
+#loadingGenerate {
+text-align:center;
+}
+#tombol1,#tombol2 {
+    text-align: center;
+	margin-bottom: 10px;
+}
+
+#ProgressBar {
+    width: 100%;
+    height: 10px;
+    border: 1px solid black;
+    border-radius: 7px;
+    text-align: center;
+}
+
+#Progress {  
+  width: 100%;
+  background-color: #4A90E2;
+  height: 100%;
+  border-top-left-radius: 7px;
+  border-bottom-left-radius: 7px;
+  border-color: #4A90E2;
+  
+  animation-name: progressBar;
+  animation-iteration-count: 1;
+
+}
+
+@keyframes progressBar {
+  0% {
+    width: 0%;
+  }
+  
+  100% {
+    width: 100%;
+  }
+}
+
+div#buttonHome {
+    text-align: center;
+    position: relative;
+}
+
+.none {
+display:none;
+}
+
+.titleMassage {
+    color: red;
+    font-weight: bold;
+	margin-top: 10px;
+}
+.titleMassage1 {
+    color: green;
+    font-weight: bold;
+	margin-top: 10px;
+}
+input#inputPassword {
+    height: 25px;
+    width: 200px;
+    padding-left: 5px;
+    box-shadow: 0 0 3px black;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+.areaSettingGen {
+	margin-bottom: 20px;
+}
+input#AreaInputPass {
+    box-shadow: 0 0 4px black;
+    padding: 10px;
+    margin-bottom: 5px;
+    width: 300px;
+    border-radius: 10px;
+}
+#AreaBoxPass {
+	padding: 10px;
+    background-color: #b5ddff;
+    border-radius: 10px;
+}
+#AreaBoxFirst {
+	text-align: center;
+    display: inline-block;
+}
+div#NotifWrongPass {
+    color: red;
+    font-size: 12px;
+}
+.AreatitlePass {
+    color: black;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+.areaKUKU {
+	display: flex;
+}
+div#AreaGenku {
+    display: flow-root;
+    box-shadow: 0 0 6px black;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 5px;
+    background-color: #85ce8217;
+}
+.NotifWelcome {
+    float: right;
+    font-size: 15px;
+    top: 7px;
+    position: relative;
+}
+button#buttonPassword,#buttonNewPassword,#copyCodePass {
+    padding: 2px 20px;
+    font-weight: 600;
+    box-shadow: 0 0 1px black;
+    background-color: #e2da45;
+    cursor: pointer;
+}
+input#InputPassword {
+    height: 25px;
+    width: 200px;
+    padding-left: 5px;
+    box-shadow: 0 0 3px black;
+}
+.BoxAreaLogin {
+    background-color: #f2a94b;
+    border-radius: 10px;
+    padding: 10px 20px;
+    display: inline-block;
+}
+.LoginkuCuy {
+    margin-top: 6px;
+    text-align: left;
+}
+.TitlePanel {
+    font-weight: 600;
+    margin-bottom: 10px;
+    padding: 5px;
+    font-size: 18px;
+    text-align: left;
+    color: white;
+}
+span#NotifPassLog {
+    font-size: 10px;
+    margin-left: 5px;
+    font-weight: bold;
+}
+#tombolHome,#button1,#button2 {
+	box-shadow:inset 0px 1px 0px 0px #fce2c1;
+	background:linear-gradient(to bottom, #ffc477 5%, #fb9e25 100%);
+	background-color:#ffc477;
+	border-radius:6px;
+	border:1px solid #eeb44f;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #cc9f52;
+}
+#tombolHome:hover,#button1:active,#button2:active {
+	background:linear-gradient(to bottom, #fb9e25 5%, #ffc477 100%);
+	background-color:#fb9e25;
+}
+#tombolHome:active,#button1:active,#button2:active {
+	position:relative;
+	top:1px;
+}
+div#BackToLogin {
+    text-align: left;
+    margin-top: 10px;
+    font-size: 12px;
+}
+span#subBackToLogin {
+    cursor: pointer;
+    border-bottom: 1px solid #5b4e3c;
+}
+div#statusSafelink {
+    text-align: center;
+    margin-top: 10px;
+    display: inline-block;
+}
+textarea#textAreaPass {
+    box-shadow: 0 0 2px black;
+    padding: 10px;
+    height: 100px;
+	width: 100%;
+}
+div#HowToSetPass {
+    margin-top: 10px;
+}
+button#AreaSubmitPass {
+    padding: 5px 20px;
+    border-radius: 20px;
+    background-color: #f2be4b;
+    color: black;
+    font-weight: 600;
+}
